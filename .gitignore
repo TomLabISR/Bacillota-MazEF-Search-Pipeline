@@ -1,0 +1,49 @@
+# 1. Block ALL heavy data file types globally
+*.fasta
+*.fna
+*.dmnd
+*.csv
+*.xlsx
+*.tsv
+*.m8
+*.tar.gz
+*.txt
+
+# 2. Block all .faa files EXCEPT your specific reference file
+*.faa
+!ref_protein_mazEF.faa
+
+# 3. Block the massive data and scratch folders
+Bacillota_ref_dataset/
+Bacillota_results/
+Bacillota_phages/
+HMMEResults/
+16s/
+Streptococcaceae/
+data/
+detecting_mazE/
+mazE_in_phages/
+zenodo_staging/
+pipeline_output/
+results/
+
+# 4. Block Jupyter Notebooks and AI folders
+*.ipynb
+.claude/
+.ipynb_checkpoints/
+__pycache__/
+
+# 5. Keep essential environment files
+!requirements.txt
+!environment.yml
+
+# 6. Windows Artifacts and Scratch Scripts
+*Zone.Identifier
+tmp/
+tmp2/
+debug_merge.py
+fixed_merge_script.py
+merge_rhh_results.py
+merge_taxonomy_data.py
+update_with_hmmer_results.py
+analyze_interproscan*.py

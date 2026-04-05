@@ -1,0 +1,30 @@
+name: mazef_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.11
+
+  # Data processing
+  - pandas>=2.0
+  - numpy>=1.24
+  - openpyxl>=3.1
+  - tqdm>=4.65
+  - seaborn>=0.12       # Spectral_r colormap for iTOL annotations (Step 10)
+  - matplotlib>=3.7     # mcolors.rgb2hex used in Step 10
+
+  # Bioinformatics (Python)
+  - biopython>=1.81
+  - ete3>=3.1           # Phylogenetic tree manipulation (Steps 9 & 10)
+
+  # External bioinformatics tools
+  - diamond>=2.1          # DIAMOND blastp (conda-forge/bioconda)
+  - interproscan          # InterProScan (bioconda; optional — slow)
+
+  # Pip extras (not on conda)
+  - pip
+  - pip:
+    - openpyxl>=3.1

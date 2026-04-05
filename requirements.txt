@@ -1,0 +1,18 @@
+# MazF/MazE operon detection pipeline — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1          # Excel read/write
+
+# Bioinformatics
+biopython>=1.81        # SeqIO (used in reference notebooks)
+ete3>=3.1              # Phylogenetic tree manipulation (Steps 9 & 10)
+
+# Visualization (iTOL annotation generation, Step 10)
+seaborn>=0.12          # Spectral_r colormap
+matplotlib>=3.7        # mcolors.rgb2hex
+
+# Progress display (optional but recommended)
+tqdm>=4.65
