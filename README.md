@@ -45,7 +45,7 @@ python pipeline/run_pipeline.py --threads 8
 | 7 | `step7_add_taxonomy.py` | Add NCBI taxonomy |
 | 8 | `step8_generate_output.py` | Generate `sup_new_fig5.xlsx` |
 | 9 | `step9_build_tree.py` | Prune Bacillota taxonomy tree to genera with ≥15 genomes |
-| 10 | `step10_generate_itol.py` | Generate 7 iTOL annotation files from pipeline output |
+| 10 | `step10_generate_itol.py` | Generate iTOL annotation files from pipeline output |
 
 ## Running InterProScan from Scratch (Optional)
 
@@ -61,7 +61,7 @@ python pipeline/run_pipeline.py --force --run-interproscan --threads 8
 |-------------|------|----------|
 | `ndoA_NP_388347.1` | MazF toxin | *B. subtilis* str. 168 |
 | `ndoAI_WP_144530614.1` | MazE antitoxin | *B. subtilis* str. 168 |
-| `alr_WP_003234284.1` | Alr alanine racemase | *B. subtilis* str. 168 |
+| `alr_WP_003234284.1` | Alr (alanine racemase) | *B. subtilis* str. 168 |
 
 ## Parameters
 
