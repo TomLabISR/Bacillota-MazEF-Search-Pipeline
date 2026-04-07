@@ -92,6 +92,7 @@ Pre-computed genome FAAs (Prodigal), DIAMOND results, and InterProScan TSV are h
 
 - Python ≥ 3.11
 - DIAMOND ≥ 2.1
+- ETE 3 (required for Step 9 tree pruning)
 - InterProScan (optional; only needed with `--run-interproscan`)
 
 See `environment.yml` for the full conda environment.
