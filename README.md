@@ -1,6 +1,6 @@
 # MazEF Operon Detection Pipeline
 
-Reproducible pipeline for identifying MazF toxin-antitoxin operon systems across 3,362 *Bacillota* genomes.
+Reproducible pipeline for identifying MazEF toxin-antitoxin operon systems across 3,362 *Bacillota* genomes.
 
 ## Overview
 
